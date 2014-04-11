@@ -1,0 +1,463 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="es" lang="es" xmlns="http://www.w3.org/1999/xhtml" class=" js">
+
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title> Indultos - Ministerio de Justicia </title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+
+	<link rel="stylesheet" href="css/estilosGeneral.css" type="text/css" media="screen" />
+	<!--[if IE 7]><link href="http://www.mjusticia.gob.es/estatico/cs/mjusticia/css/IE7General.css" type="text/css" rel="stylesheet" media="screen"/><![endif]-->
+	<!--[if IE 6]><link href="http://www.mjusticia.gob.es/estatico/cs/mjusticia/css/IE6General.css" type="text/css" rel="stylesheet" media="screen" /><![endif]-->
+	<link rel="stylesheet" href="css/estilosImprimir.css" type="text/css" media="print" />
+
+
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/funciones.js" type="text/javascript"></script>
+
+
+    <link rel="stylesheet" href="css/nv.d3.min.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/d3.v3.min.js"></script>
+    <script type="text/javascript" src="js/nv.d3.js"></script>
+    <script type="text/javascript" src="js/multiBarHorizontalChart.js"></script>
+	<script type="text/javascript" src="js/cargar_indultos.js"></script>
+    <script type="text/javascript" src="js/tablas_indultos.js"></script> 
+    <script type="text/javascript" src="js/graficos_indultos.js"></script>
+
+
+
+
+
+</head><body >
+
+		<div class="site">
+			<div class="site2">
+				<div class="oculto">
+					<a href="http://www.mjusticia.gob.es/cs/Satellite/es/1288776293066/EstructuraOrganica.html#contenido" accesskey="s">Ir a Contenido</a>
+				</div>
+		<div id="cabecera">
+			<div class="bloqueCabecera" id="cabeceraIzq" role="banner">
+				<h1 class="oculto">Ministerio de Justicia</h1>
+
+				<div id="cabeceraParteSuperior">
+		<div class="menuIdiomas">
+			<ul>
+				<li><strong>Castellano</strong></li>
+				<li><a href="http://www.mjusticia.gob.es/cs/Satellite/ca/1200666550194/DetalleInicio.html" lang="ca" xml:lang="ca" hreflang="ca">Català</a></li>
+				<li><a href="http://www.mjusticia.gob.es/cs/Satellite/eu/1200666550194/DetalleInicio.html" lang="eu" xml:lang="eu" hreflang="eu">Euskara</a></li>
+				<li><a href="http://www.mjusticia.gob.es/cs/Satellite/gl/1200666550194/DetalleInicio.html" lang="gl" xml:lang="gl" hreflang="gl">Galego</a></li>
+				<li><a href="http://www.mjusticia.gob.es/cs/Satellite/va/1200666550194/DetalleInicio.html" lang="va" xml:lang="va" hreflang="va">Valencià</a></li>
+				<li class="ultimo"><a href="http://www.mjusticia.gob.es/cs/Satellite/en/1200666550194/DetalleInicio.html" lang="en" xml:lang="en" hreflang="en">English</a></li>
+			</ul>
+		</div><!-- menuIdiomas -->
+
+				</div><!-- cabeceraParteSuperior -->
+
+				
+				
+				<div class="cabeceraInterior">
+				
+					<div class="bloqueCabeceraIzq">
+						<a href="http://www.mjusticia.gob.es/" accesskey="1" id="a1288775096598"><img src="img/1292367031762" alt="Ministerio de Justicia" title="Ministerio de Justicia" /></a><a href="http://www.mjusticia.gob.es/" id="a1288776177512"><img src="img/1292410957419" alt="Ministerio de Justicia" title="Ministerio de Justicia" /></a>
+					</div><!-- bloqueCabeceraIzq -->
+
+					<div class="bloqueCabeceraDer">
+							
+						<div class="bloqueCabeceraContenido bloque_direcciones">
+							<ul>
+								<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1288774636767/DireccionesTelefonos.html">Direcciones y teléfonos</a></li>
+								<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1200666550254/Contacto.html">Atención al ciudadano: <span class="saltoLinea">902 007 214 - 91 837 22 95</span></a></li>
+							</ul>
+						</div><!--  bloque_direcciones -->
+						
+			<div class="bloqueCabeceraContenido" style="position:relative">
+
+			<form action="http://www.mjusticia.gob.es/cs/Satellite" method="post" name="buscador">
+				
+				<input name="pagename" type="hidden" value="eSEDE/SE_Layout" />
+				<input name="c" type="hidden" value="Page" />
+				<input name="cid" type="hidden" value="1288782227577" />
+				
+				<input name="childpagename" type="hidden" value="FW_ResultadosBusqueda" />
+				<input name="lang" type="hidden" value="es_es" />
+
+				<input name="access" type="hidden" value="p" />
+				<input name="output" type="hidden" value="xml_no_dtd" />
+				<label for="buscar" class="oculto">Buscar</label>
+				<input type="text" id="buscar" name="q" value="" accesskey="b" class="cajaBuscador ac_input" autocomplete="off" />
+				<input type="submit" class="buscarBoton" title="Buscar" value=" " style="cursor: pointer;" />
+				
+			</form></div><!-- bloqueBuscadorGeneralPortal -->			
+					
+				
+
+
+
+
+		         		</div><!--bloqueCabeceraContenido-->
+					</div><!-- bloqueCabeceraDer  -->
+						
+					
+				</div><!-- cabeceraInterior  -->
+			</div><!-- bloqueCabecera  -->
+		</div><!-- cabecera -->
+	
+	
+	<h2 class="oculto">Menú principal</h2>
+	<div id="menuPrincipal" role="navigation" class="">
+		<ul id="menuPrincipalInterior" class="menu">
+			<li><span><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197978084/50-50.html">El Ministerio</a></span>
+				<ul>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197982422/EstructuraOrganica.html">El Ministro</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1288777550611/DetalleInformacion.html">Organigrama</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197982030/EstructuraOrganica.html">Funciones y estructura</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197982625/EstructuraOrganica.html">Organismos y entidades</a></li>
+				</ul>
+			</li>
+			<li><span><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197981948/50-50.html">Administración de Justicia</a></span>
+				<ul>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1288779434198/DetalleInformacion.html">Portal de la Administración de Justicia</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197982704/EstructuraOrganica.html">Organización de la Justicia</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197982798/EstructuraOrganica.html">Fiscalía General del Estado</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197982743/EstructuraOrganica.html">Consejo General del Poder Judicial</a></li>
+				</ul>
+			</li>
+			<li><span><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197701906/Listado.html">Actividad Legislativa</a></span>
+				<ul>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215198252237/DetalleActividadLegislativa.html">Normativa</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215198250496/EstructuraOrganica.html">Comisión General de Codificación</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215198251775/DetalleInformacion.html">Red de Cooperación Legislativa de la UE</a></li>
+				</ul>
+			</li>
+			<li class="seleccionado"><span><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983302/50-50.html">Áreas temáticas</a></span>
+				<ul>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983330/50-50.html">Nacionalidad</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983369/EstructuraOrganica.html">Registros</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983408/EstructuraOrganica.html">Estado civil</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983447/ListaContenidos.html">Área internacional</a></li>
+                    <li> <strong><a href="indulto_detalle.html">Indultos</a> </strong></li>
+				</ul>
+			</li>
+			<li><span><a href="http://www.administraciondejusticia.gob.es/paj/publico/Profesionales" class="enlaceAviso enlacePantallaNueva" title="Este enlace se abre en una nueva pantalla" target="_blank">Profesionales<span class="oculto">Este enlace se abre en una nueva pantalla</span></a></span>
+			</li>			
+			
+		</ul>
+	</div>
+
+
+
+				<div class="contenedorCentro" id="contenido">
+
+<ol class="navegacion">
+    <li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1200666550194/DetalleInicio.html">Inicio</a></li>
+    <li><a href="indulto_subhome.html">Áreas temáticas</a></li>
+    <li class="ultimo">Indultos</li>
+</ol>
+
+	<div class="contenedorIzq">
+	<div class="tituloSeccionBarra"><h2><span>Estadísticas sobre Indultos</span></h2></div>
+		
+	<div class="contenedorCuerpo">
+
+			
+			<div class="cuerpo">
+				<p>Las concesiones de indultos se resuelven mediante Real Decreto de Consejo de Ministros, a propuesta del Ministro de Justicia, y se publican en el Boletín Oficial del Estado. Igualmente, se comunican al término de la reunión del Consejo de
+                    Ministros al tribunal sentenciador de la causa cuya pena ha sido objeto de la petición de gracia.</p>
+
+                <p>Las denegaciones de indultos se resuelven mediante Acuerdo de Consejo de Ministros, y se comunican en el plazo de tres días hábiles al tribunal sentenciador de la causa cuya pena ha sido objeto de la petición de gracia.</p>
+
+                <p>Para el general conocimiento, se publica a continuación la relación de peticiones de indulto concedidas y denegadas por el Consejo de Ministros, categorizadas por tipo de delito según clasificación operada en la base de datos de Indultos.</p>
+
+
+				<ul class="listado_05">
+					<li><a href="#id_1">Peticiones de indulto concedidas y denegadas en 2014</a></li>
+					<li><a href="#id_2">Histórico de peticiones de indultos</a></li>
+					<li><a href="#id_3">Tipo de delito según clasificación operada en la base de datos de Indultos (enero 2014)</a></li>
+				</ul>
+
+			<div id="id_1" class="tituloInterior_17">Peticiones de indulto concedidas y denegadas en 2014</div>
+
+
+              
+                <!-- datos tabla total anio -->
+               <div class="bloque_tabla_grafico">
+                   <div id="tabla_grafico_00" class="tabla_grafico tabla_con_tipos" >
+                       <div id="bloque_tabla_chart_00" >
+                           <div class="bloque_tabla_chart_int">
+                               <div rel="tabla" class="cambiar cambiar_00 cambiar_a_grafico">Ver gráfico</div>                      
+                               <div id="tabla_datos_00"> </div>
+                            </div>                    
+                       </div>
+                   </div>
+                   <div class="tabla_grafico_enlace ico_info">
+                       Pulse sobre el tipo de delito para acceder al listado de los Reales Decretos de los correspondientes indultos.
+                   </div> 
+                    <div id="chart_00" class="chart">
+                        <div id="bloque_grafico_00" >
+                            <div class="tabla_grafico_titulo">
+                                    <div id="grafico_titulo_00" class="grafico_titulo"></div>
+                                    <div rel="grafico" class="cambiar cambiar_00 cambiar_a_tabla">Ver tabla</div>
+                            </div>
+                            <svg></svg>
+                        </div>
+                    </div>
+                </div> <!--bloque_tabla_grafico--> 
+              
+              
+               <!--	datos tabla mes anterior 01-->
+               <div class="bloque_tabla_grafico">
+                   <div id="tabla_grafico_01" class="tabla_grafico tabla_con_tipos" >
+                       <div id="bloque_tabla_chart_01" >
+                           <div class="bloque_tabla_chart_int">
+                               <div rel="tabla" class="cambiar cambiar_01 cambiar_a_grafico">Ver gráfico</div>                      
+                               <div id="tabla_datos_01"> </div>
+                            </div>                    
+                       </div>
+                   </div>  
+                    <div class="tabla_grafico_enlace">
+                       Consulte todas las estadísticas de los <a href="indulto_historico.html">Indultos concedidos y rechazados en 2014</a>  
+                   </div>                             
+                     <div id="chart_01" class="chart">
+                        <div id="bloque_grafico_01" >
+                            <div class="tabla_grafico_titulo">
+                                    <div id="grafico_titulo_01" class="grafico_titulo"></div>
+                                    <div rel="grafico" class="cambiar cambiar_01 cambiar_a_tabla">Ver tabla</div>
+                            </div>
+                            <svg></svg>
+                        </div>
+                    </div>
+               </div> <!--bloque_tabla_grafico--> 
+
+                
+              
+
+                <div id="id_2" class="tituloInterior_17">Histórico de peticiones de indultos</div>
+
+
+                <!-- datos tabla Acumulado 2008 - 2014 -->
+                <div class="bloque_tabla_grafico">
+                    <div id="tabla_grafico_03" class="tabla_grafico tabla_con_tipos" >
+                       <div id="bloque_tabla_chart_03">
+                           <div class="bloque_tabla_chart_int" >
+                               <div rel="tabla" class="cambiar cambiar_03 cambiar_a_grafico">Ver gráfico</div>                      
+                               <div id="tabla_datos_03"> </div>
+                            </div>                    
+                       </div>
+                   </div>
+                    <div id="chart_03" class="chart">
+                        <div id="bloque_grafico_03" >
+                            <div class="tabla_grafico_titulo">
+                                <div id="grafico_titulo_03" class="grafico_titulo"></div>
+                                <div  rel="grafico" class="cambiar cambiar_03 cambiar_a_tabla">Ver tabla</div>
+                            </div>
+                            <svg></svg>
+                        </div>
+                    </div>
+				</div> <!--bloque_tabla_grafico--> 
+
+				
+                
+                <!-- datos tabla Estadísticas 2008-2014 por tipo de delito -->
+               <div class="bloque_tabla_grafico">
+                    <div id="tabla_grafico_04" class="tabla_grafico tabla_con_tipos bloque_table_02_mini" >
+                       <div id="bloque_tabla_chart_04">
+                           <div class="bloque_tabla_chart_int" >
+                               <div id="tabla_datos_04"> </div>
+                            </div>                    
+                       </div>
+                   </div>
+				</div> <!--bloque_tabla_grafico--> 
+               
+                
+
+                
+                
+                <!-- datos tabla Concedidos y rechazados desde 2001 -->
+                <div class="bloque_tabla_grafico">
+                    <div id="tabla_grafico_05" class="tabla_grafico tabla_con_tipos" >
+                       <div id="bloque_tabla_chart_05">
+                           <div class="bloque_tabla_chart_int" >
+                               <div id="tabla_datos_05"> </div>
+                            </div>                    
+                       </div>
+                   </div>
+               </div> <!--bloque_tabla_grafico--> 
+	
+               
+                
+                   <ul class="listado_05" id="listado_delitos_descripcion">
+
+                       <li><strong>Delitos contra la Administración Pública y de Justicia:</strong>
+                       <div id="tipo_01">Delitos contra la ordenación del territorio, estafa, falso testimonio, infidelidad en custodia de documentos, malversación, obstrucción a la justicia, omisión del deber de perseguir delitos, prevaricación, simulación de delito, tráfico de influencias, entre otros.</div> </li>
+
+                       <li><strong>Falsedades:</strong>
+                       <div id="tipo_02">Delitos de falsedad en documento oficial, público, privado o mercantil, simulación de contrato, usurpación de atribuciones o estado civil, entre otros. </div>  </li>
+
+                       <li><strong>Hacienda Pública:</strong>
+                       <div id="tipo_03">Delitos de blanqueo de capitales, defraudación, obtención indebida de fondos, subvenciones, desgravaciones y ayudas, entre otros.</div> </li>
+                       
+                       <li><strong>Integridad física:</strong>
+                       <div id="tipo_04">Delitos de asesinato, homicidio, lesiones, torturas, así como delitos contra la integridad moral (injurias, calumnias), entre otros.</div> </li>
+
+                       <li><strong>Libertad:</strong>
+                       <div id="tipo_05">Delitos de acoso laboral, acoso sexual, coacciones, detención ilegal, esclavitud, inmigración clandestina, secuestro, sustracción de menores, entre otros.</div> </li>
+
+                        <li><strong>Orden público:</strong>
+                       <div id="tipo_06">Delitos de atentado a la autoridad, desórdenes públicos, manifestación o reunión ilícita, resistencia, entre otros.</div> </li>
+                       
+                       <li><strong>Patrimonio:</strong>
+                       <div id="tipo_07">Delitos contra el medio ambiente y los recursos naturales, contra la propiedad industrial o intelectual, hurto, impago de pensiones, receptación, robo, entre otros.</div> </li>
+
+                       <li><strong>Salud Pública:</strong>
+                       <div id="tipo_08">Delitos contra la salud pública (drogas), tráfico y cultivo de drogas, adulteración de alimentos y bebidas, entre otros. </div> </li>
+
+                       <li><strong> Seguridad Vial:</strong>
+                       <div id="tipo_09">Delitos contra la seguridad del tráfico.</div> </li>
+
+                       <li><strong>Violencia doméstica:</strong>
+                       <div id="tipo_10">Delitos contra la libertad o la integridad en el marco de la violencia doméstica.</div> </li>
+
+                       <li><strong> Otros:</strong>
+                       <div id="tipo_11">Delitos contra las instituciones del Estado, delitos electorales, lesa humanidad, profanación, entre otros. </div> </li>
+                   </ul>
+
+
+			</div><!-- cuerpo -->
+			
+		</div><!-- contenedorCuerpo -->
+	</div><!-- contenedorIzq -->
+			<!-- /****parte derecha*//// -->
+			<div class="contenedorDer" >
+
+		<div class="bloqueDatosRelacionados" id="menuLateral">
+			<div class="bloqueDatosRelacionadosTitulo tituloDestacado">Áreas temáticas</div>
+			<div class="bloqueDatosRelacionadosCuerpo">
+				<ul>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983330/50-50.html">Nacionalidad</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983369/EstructuraOrganica.html">Registros</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983408/EstructuraOrganica.html">Estado civil</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983447/ListaContenidos.html">Área internacional</a>
+					</li><li><a href="indulto_detalle.html" class="activo">Indultos</a>
+                    	<ul>
+                            <li><a href="indulto_historico.html">Estadísticas sobre Indultos en 2014</a></li>
+                            <li><a href="indulto_buscador.html">Reales Decretos de Indultos 2014 </a></li>
+                        </ul>
+                    </li>
+				</ul>
+			</div><!-- bloqueDatosRelacionadosCuerpo -->
+		</div><!-- bloqueDatosRelacionados -->
+
+
+          <div class="bloqueDatosRelacionados">
+			<div class="bloqueDatosRelacionadosTitulo">Descarga de datos</div>
+			<div class="bloqueDatosRelacionadosCuerpo">
+				
+                <p> Puede descargar todos los datos de esta sección en formato excel: </p>
+                
+                <div class="bloque_enlace_descargar_datos">
+                <a href="Descargar_datos.XLS" class="enlace_descargar_datos">
+                 Descargar datos 
+               	 <span>(Excel 137 <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a>
+                </div>
+                
+			</div><!-- bloqueDatosRelacionadosCuerpo -->
+		</div>
+
+
+			</div><!-- contenedorDer -->
+
+
+				</div><!-- contenedorCentro -->
+
+	
+	<div id="pie" role="contentinfo">
+
+		<div class="pieContenidoSuperior">
+			<div class="pieContenido">
+				<a href="http://www.mjusticia.gob.es/" id="a1288775097104"><img src="img/1292367031774" alt="Ministerio de Justicia" title="Ministerio de Justicia" /></a>
+			</div>
+		</div><!-- pieContenidoSuperior -->
+
+		<div class="pieContenidoCentro">
+			<div class="pieContenido">
+			
+				<div class="pieBloque" >
+
+					<div class="pieBloqueTitulo"><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197978084/50-50.html">El Ministerio</a></div>
+					<ul>
+						<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197982422/EstructuraOrganica.html">El Ministro</a></li>
+						<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1288777550611/DetalleInformacion.html">Organigrama</a></li>
+						<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197982030/EstructuraOrganica.html">Funciones y estructura</a></li>
+						<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197982625/EstructuraOrganica.html">Organismos y entidades</a></li>
+					</ul>
+
+				</div><!--pieBloque-->
+
+			
+				<div class="pieBloque" style="height: 155px;">
+
+					<div class="pieBloqueTitulo"><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197981948/50-50.html">Administración de Justicia</a></div>
+					<ul>
+						<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1288779434198/DetalleInformacion.html">Portal de la Administración de Justicia</a></li>
+						<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197982704/EstructuraOrganica.html">Organización de la Justicia</a></li>
+						<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197982798/EstructuraOrganica.html">Fiscalía General del Estado</a></li>
+						<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197982743/EstructuraOrganica.html">Consejo General del Poder Judicial</a></li>
+					</ul>
+
+				</div><!--pieBloque-->
+
+			
+				<div class="pieBloque" style="height: 155px;">
+
+					<div class="pieBloqueTitulo"><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197701906/Listado.html">Actividad Legislativa</a></div>
+					<ul>
+						<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215198252237/DetalleActividadLegislativa.html">Normativa</a></li>
+						<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215198250496/EstructuraOrganica.html">Comisión General de Codificación</a></li>
+						<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215198251775/DetalleInformacion.html">Red de Cooperación Legislativa de la UE</a></li>
+					</ul>
+
+				</div><!--pieBloque-->
+
+			
+				<div class="pieBloque" style="height: 155px;">
+
+					<div class="pieBloqueTitulo"><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983302/50-50.html">Áreas temáticas</a></div>
+					<ul>
+						<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983330/50-50.html">Nacionalidad</a></li>
+						<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983369/EstructuraOrganica.html">Registros</a></li>
+						<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983408/EstructuraOrganica.html">Estado civil</a></li>
+						<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197983447/ListaContenidos.html">Área internacional</a></li>
+					</ul>
+
+				</div><!--pieBloque-->
+
+			</div><!--pieContenido-->
+		</div><!--pieContenidoCentro-->
+
+		<div class="pieContenidoInferior">
+			<div class="pieContenido">
+						
+				<ul>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1200666550224/MuestraInformacion.html" rel="nofollow" accesskey="2">Aviso Legal</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1200666550236/MapaWeb.html" rel="nofollow" accesskey="3">Mapa Web</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1200666550242/MuestraInformacion.html" rel="nofollow" accesskey="4">Guía de Navegación</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197775112/Suscripciones.html" accesskey="5" rel="nofollow">Canales</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1215197981472/EnlacesInteres.html" rel="nofollow" accesskey="6">Enlaces de interés</a></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1200666550248/MuestraInformacion.html" rel="nofollow" accesskey="7">Accesibilidad</a> <img src="img/1292424753581" title="Icono que informa que las páginas de este sitio Web cumplen la marca AA según la Norma UNE 139803:2012" alt="Icono que informa que las páginas de este sitio Web cumplen la marca AA según la Norma UNE 139803:2012" /></li>
+					<li><a href="http://www.mjusticia.gob.es/cs/Satellite/es/1200666550254/Contacto.html" rel="nofollow" accesskey="8">Atención al ciudadano: <span class="saltoLinea">902 007 214 - 91 837 22 95</span></a></li>
+				</ul>
+					
+			</div><!-- pieContenido -->
+		</div><!-- pieContenidoInferior -->
+
+	</div><!-- pie -->
+
+					
+			</div><!-- site2 -->
+
+		</div><!-- site -->
+        
+
+	
+
+</body></html>
